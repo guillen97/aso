@@ -1,0 +1,45 @@
+[2021-02-08 16:03:09.508] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-02-08 16:03:09.508] [remoteagent] [info] Extension host agent started.
+[2021-02-08 16:03:09.542] [remoteagent] [info] [127.0.0.1][0145101f][ManagementConnection] New connection established.
+[2021-02-08 16:03:09.571] [remoteagent] [info] [127.0.0.1][3a336499][ExtensionHostConnection] New connection established.
+[2021-02-08 16:03:09.805] [remoteagent] [info] [127.0.0.1][3a336499][ExtensionHostConnection] <4478> Launched Extension Host Process.
+[2021-02-08 16:03:20.201] [remoteagent] [info] [127.0.0.1][0145101f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-02-08 16:03:21.222] [remoteagent] [info] [127.0.0.1][3a336499][ExtensionHostConnection] <4478> Extension Host Process exited with code: 0, signal: null.
+[2021-02-08 16:03:21.222] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-02-08 16:04:04.726] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2021-02-08 16:04:04.726] [remoteagent] [info] Cancelling previous shutdown timeout
+[2021-02-08 16:04:04.762] [remoteagent] [info] [127.0.0.1][a61e41b9][ManagementConnection] New connection established.
+[2021-02-08 16:04:04.821] [remoteagent] [info] [127.0.0.1][9a6c2f3d][ExtensionHostConnection] New connection established.
+[2021-02-08 16:04:04.826] [remoteagent] [info] [127.0.0.1][9a6c2f3d][ExtensionHostConnection] <4593> Launched Extension Host Process.
+[2021-02-08 16:04:36.465] [remoteagent] [info] [127.0.0.1][a61e41b9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-02-08 16:04:37.480] [remoteagent] [info] [127.0.0.1][9a6c2f3d][ExtensionHostConnection] <4593> Extension Host Process exited with code: 0, signal: null.
+[2021-02-08 16:04:37.480] [remoteagent] [info] Cancelling previous shutdown timeout
+[2021-02-08 16:04:37.480] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-02-08 16:04:42.958] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2021-02-08 16:04:42.958] [remoteagent] [info] Cancelling previous shutdown timeout
+[2021-02-08 16:04:42.999] [remoteagent] [info] [127.0.0.1][4f851bb1][ManagementConnection] New connection established.
+[2021-02-08 16:04:43.029] [remoteagent] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/root/.vscode'
+[2021-02-08 16:04:43.039] [remoteagent] [info] [127.0.0.1][2e6c0be7][ExtensionHostConnection] New connection established.
+[2021-02-08 16:04:43.049] [remoteagent] [info] [127.0.0.1][2e6c0be7][ExtensionHostConnection] <4723> Launched Extension Host Process.
+[2021-02-08 16:06:59.505] [remoteagent] [info] Installing extension: redhat.vscode-yaml
+[2021-02-08 16:07:02.046] [remoteagent] [info] Downloaded extension: redhat.vscode-yaml undefined
+[2021-02-08 16:07:03.146] [remoteagent] [info] Extracted extension to /root/.vscode-server/extensions/.redhat.vscode-yaml-0.14.0: redhat.vscode-yaml
+[2021-02-08 16:07:03.148] [remoteagent] [info] Renamed to /root/.vscode-server/extensions/redhat.vscode-yaml-0.14.0
+[2021-02-08 16:07:03.149] [remoteagent] [info] Installation completed. redhat.vscode-yaml
+[2021-02-08 16:07:03.156] [remoteagent] [info] Extensions installed successfully: redhat.vscode-yaml
+[2021-02-08 16:07:29.044] [remoteagent] [info] Installing extension: oderwat.indent-rainbow
+[2021-02-08 16:07:29.509] [remoteagent] [info] Downloaded extension: oderwat.indent-rainbow undefined
+[2021-02-08 16:07:29.547] [remoteagent] [info] Extracted extension to /root/.vscode-server/extensions/.oderwat.indent-rainbow-7.5.0: oderwat.indent-rainbow
+[2021-02-08 16:07:29.548] [remoteagent] [info] Renamed to /root/.vscode-server/extensions/oderwat.indent-rainbow-7.5.0
+[2021-02-08 16:07:29.549] [remoteagent] [info] Installation completed. oderwat.indent-rainbow
+[2021-02-08 16:07:29.552] [remoteagent] [info] Extensions installed successfully: oderwat.indent-rainbow
+[2021-02-08 16:09:42.960] [remoteagent] [info] New EH opened, aborting shutdown

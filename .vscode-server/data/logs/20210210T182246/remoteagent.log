@@ -1,0 +1,21 @@
+[2021-02-10 18:22:46.592] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-02-10 18:22:46.592] [remoteagent] [info] Extension host agent started.
+[2021-02-10 18:22:46.732] [remoteagent] [info] [127.0.0.1][04ff58aa][ExtensionHostConnection] New connection established.
+[2021-02-10 18:22:46.740] [remoteagent] [info] [127.0.0.1][7454aa63][ManagementConnection] New connection established.
+[2021-02-10 18:22:46.782] [remoteagent] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/root/.vscode'
+[2021-02-10 18:22:46.999] [remoteagent] [info] [127.0.0.1][04ff58aa][ExtensionHostConnection] <693> Launched Extension Host Process.
+[2021-02-10 18:22:48.575] [remoteagent] [info] Installing extension: redhat.vscode-yaml
+[2021-02-10 18:23:09.560] [remoteagent] [info] Downloaded extension: redhat.vscode-yaml undefined
+[2021-02-10 18:23:10.602] [remoteagent] [info] Extracted extension to /root/.vscode-server/extensions/.redhat.vscode-yaml-0.15.0: redhat.vscode-yaml
+[2021-02-10 18:23:10.603] [remoteagent] [info] Renamed to /root/.vscode-server/extensions/redhat.vscode-yaml-0.15.0
+[2021-02-10 18:23:10.609] [remoteagent] [info] Installation completed. redhat.vscode-yaml
+[2021-02-10 18:23:10.618] [remoteagent] [info] Extensions installed successfully: redhat.vscode-yaml

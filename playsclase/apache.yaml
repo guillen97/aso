@@ -1,0 +1,28 @@
+---
+- name: Instalación de Apache
+  hosts: webservers
+  remote_user: root
+  tasks:
+    - name: Instalar Apache 2
+      apt:
+        pkg:
+          - apache2
+          - php
+          - libapache2-mod-php
+          - php-mysql
+        state: latest
+        update_cache: yes
+    - name:
+      copy:
+        src: /root/playsclase/info.php
+        dest: /var/www/html/info.php
+        force: yes
+    - name: Activar REWRITE de Apache
+      apache2_module:
+        state: present
+        name: rewrite
+    - name: Reiniciar servidor apache
+      service:
+        name: apache2
+        state: restarted
+...

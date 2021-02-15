@@ -1,0 +1,26 @@
+---
+- name: Descargar e instalar Wordpress
+  remote_user: root
+  hosts: webservers
+  vars:
+    temp_path: "/tmp/wordpress"
+  tasks:
+  - name: Install UNZIP
+    apt:
+      name: unzip
+      state: latest
+  - name: Comprobar si está Wordpress descargado
+    stat:
+      path: "{{ temp_path }}" 
+    register: wp_downloaded
+  - name: Download Wordpress
+    get_url:
+      url: https://wordpress.org/latest.zip
+      dest: "{{ temp_path }}"
+    when: wp_downloaded.stat.exist == false
+  - name: Descomprimir Wordpress
+    unarchive:
+      src: "{{ temp_path }}"
+      dest: /var/www/html/
+      remote_src: yes
+...

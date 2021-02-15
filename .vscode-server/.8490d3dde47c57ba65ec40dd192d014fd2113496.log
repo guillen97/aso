@@ -1,0 +1,21 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+Extension host agent listening on 35443
+
+[18:30:31] Extension host agent started.
+[18:30:32] [127.0.0.1][7454aa63][ManagementConnection] Unknown reconnection token.
+[18:30:32] [127.0.0.1][04ff58aa][ExtensionHostConnection] Unknown reconnection token.
+[18:30:32] Deleted from disk redhat.vscode-yaml /root/.vscode-server/extensions/redhat.vscode-yaml-0.14.0
+[18:30:39] [127.0.0.1][34a64e44][ManagementConnection] New connection established.
+[18:30:39] [127.0.0.1][26263324][ExtensionHostConnection] New connection established.
+[18:30:39] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/root/.vscode'
+bash: no se puede establecer el grupo de proceso de terminal (-1): Función ioctl no apropiada para el dispositivo
+bash: no hay control de trabajos en este shell
+[18:30:40] [127.0.0.1][26263324][ExtensionHostConnection] <663> Launched Extension Host Process.

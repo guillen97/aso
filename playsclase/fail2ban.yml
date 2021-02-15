@@ -1,0 +1,36 @@
+---
+- name: Instalación y configuración de fail2ban
+  remote_user: root
+  hosts: all
+  tasks:
+    - name: Instalación de Fail2Ban en Debian y Ubuntu
+      apt:
+        update_cache: yes
+        name: fail2ban
+        state: present
+      when: ansible_pkg_mgr == "apt"
+    - name: Instalación de epel-release en CentOS
+      dnf:
+#        update_cache: yes
+        name: epel-release
+        state: present
+      when: ansible_pkg_mgr == "dnf"
+    - name: Instalación de Fail2Ban en CentOS
+      dnf:
+#        update_cache: yes
+        name: fail2ban
+        state: present
+      when: ansible_pkg_mgr == "dnf"
+    - name: Copiar fichero de configuración
+      copy:
+        src: /etc/fail2ban/jail.d/sshd.conf
+        dest: /etc/fail2ban/jail.d/sshd.conf
+        force: yes
+        owner: root
+        group: root
+        mode: 0644
+    - name: Reiniciar el servicio Fail2Ban
+      service:
+        name: fail2ban
+        state: restarted
+...

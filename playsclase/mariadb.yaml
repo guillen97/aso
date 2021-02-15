@@ -1,0 +1,33 @@
+---
+- name: Database servers playbook
+  remote_user: root
+  gather_facts: false
+  hosts: databases
+  tasks:
+    - name: Instalar MARIA DB server
+      dnf:
+        name: mariadb-server, python3-PyMySQL
+        state: present
+        #update_cache: yes
+    - name: Iniciar servicio mariadb-client
+      service:
+        name: mariadb
+        state: started
+    - name: Crear base de datos
+      mysql_db:
+        config_file: /etc/mysql/my.cnf
+        login_port: 3306
+        login_user: root
+        login_password: "qwe123!"
+        name: wordpress
+        state: present
+    - name: Crear usuario para Wordpress
+      mysql_user: 
+        config_file: /etc/mysql/my.cnf
+        login_user: root
+        login_password: "qwe123!"
+        name: wordpress
+        password: wordpress
+        priv: '*.*:ALL'
+        state: present
+...

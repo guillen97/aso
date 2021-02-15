@@ -1,0 +1,20 @@
+#Playbook para instalar haproxy donde corresponde
+---
+- name: Instalación de HAProxy
+  hosts: balanceadores
+  remote_user: root
+  tasks:
+    - name: Instalar HAProxy
+      apt:
+        name: haproxy
+#        update_cache: yes
+        state: latest
+    - name: Copiar fichero de configuración
+      copy:
+        src: /root/playsclase/conf/haproxy.cfg
+        dest: /etc/haproxy/haproxy.cfg
+    - name: Reiniciar servicio haproxy
+      service:
+        name: haproxy
+        state: restarted
+...

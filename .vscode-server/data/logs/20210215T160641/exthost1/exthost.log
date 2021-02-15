@@ -1,0 +1,21 @@
+[2021-02-15 16:06:42.578] [exthost] [info] extension host started
+[2021-02-15 16:06:42.657] [exthost] [info] ExtensionService#_doActivateExtension redhat.vscode-yaml {"startup":false,"extensionId":{"value":"redhat.vscode-yaml","_lower":"redhat.vscode-yaml"},"activationEvent":"onLanguage:yaml"}
+[2021-02-15 16:06:42.671] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode-server/extensions/redhat.vscode-yaml-0.15.0/out/src/extension
+[2021-02-15 16:06:42.809] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-02-15 16:06:42.812] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode-server/bin/5d424b828ada08e1eb9f95d6cb41120234ef57c7/extensions/debug-auto-launch/dist/extension
+[2021-02-15 16:06:42.821] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-15 16:06:42.823] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode-server/bin/5d424b828ada08e1eb9f95d6cb41120234ef57c7/extensions/git/dist/main
+[2021-02-15 16:06:42.963] [exthost] [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow {"startup":true,"extensionId":{"value":"oderwat.indent-rainbow","_lower":"oderwat.indent-rainbow"},"activationEvent":"*"}
+[2021-02-15 16:06:42.968] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode-server/extensions/oderwat.indent-rainbow-7.5.0/out/extension
+[2021-02-15 16:06:43.044] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-15 16:06:43.045] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode-server/bin/5d424b828ada08e1eb9f95d6cb41120234ef57c7/extensions/github/dist/extension.js
+[2021-02-15 16:06:43.305] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-02-15 16:06:43.305] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode-server/bin/5d424b828ada08e1eb9f95d6cb41120234ef57c7/extensions/emmet/dist/node/emmetNodeMain
+[2021-02-15 16:06:43.359] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-02-15 16:06:43.363] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode-server/bin/5d424b828ada08e1eb9f95d6cb41120234ef57c7/extensions/merge-conflict/dist/mergeConflictMain
+[2021-02-15 16:06:43.379] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-02-15 16:06:43.380] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode-server/bin/5d424b828ada08e1eb9f95d6cb41120234ef57c7/extensions/testing-editor-contributions/dist/extension.js
+[2021-02-15 16:06:43.393] [exthost] [info] eager extensions activated
+[2021-02-15 16:06:43.406] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-02-15 16:06:43.411] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode-server/bin/5d424b828ada08e1eb9f95d6cb41120234ef57c7/extensions/ms-vscode.js-debug/src/extension.js
+[2021-02-15 16:06:44.480] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.

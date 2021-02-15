@@ -1,0 +1,23 @@
+[2021-02-09 17:32:44.574] [exthost] [info] extension host started
+[2021-02-09 17:32:44.658] [exthost] [info] ExtensionService#_doActivateExtension redhat.vscode-yaml {"startup":false,"extensionId":{"value":"redhat.vscode-yaml","_lower":"redhat.vscode-yaml"},"activationEvent":"onLanguage:yaml"}
+[2021-02-09 17:32:44.663] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode-server/extensions/redhat.vscode-yaml-0.14.0/out/src/extension
+[2021-02-09 17:32:44.772] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-02-09 17:32:44.774] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/extensions/debug-auto-launch/dist/extension
+[2021-02-09 17:32:44.787] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-09 17:32:44.787] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/extensions/git/dist/main
+[2021-02-09 17:32:44.938] [exthost] [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow {"startup":true,"extensionId":{"value":"oderwat.indent-rainbow","_lower":"oderwat.indent-rainbow"},"activationEvent":"*"}
+[2021-02-09 17:32:44.941] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode-server/extensions/oderwat.indent-rainbow-7.5.0/out/extension
+[2021-02-09 17:32:45.026] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-09 17:32:45.027] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/extensions/github/dist/extension.js
+[2021-02-09 17:32:45.215] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-02-09 17:32:45.217] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/extensions/emmet/dist/node/emmetNodeMain
+[2021-02-09 17:32:45.272] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-02-09 17:32:45.272] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/extensions/merge-conflict/dist/mergeConflictMain
+[2021-02-09 17:32:45.288] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-02-09 17:32:45.289] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/extensions/testing-editor-contributions/dist/extension.js
+[2021-02-09 17:32:45.299] [exthost] [info] eager extensions activated
+[2021-02-09 17:32:45.306] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-02-09 17:32:45.306] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/extensions/ms-vscode.js-debug/src/extension.js
+[2021-02-09 17:32:46.407] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2021-02-09 18:19:08.415] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"extensionId":{"value":"vscode.php-language-features","_lower":"vscode.php-language-features"},"activationEvent":"onLanguage:php"}
+[2021-02-09 18:19:08.416] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/extensions/php-language-features/dist/phpMain

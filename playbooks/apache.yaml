@@ -1,0 +1,25 @@
+---
+- name: Instalación de Apache
+  hosts: ubuntus
+  remote_user: root
+  tasks:
+    - name: Instalar Apache 2
+      apt: update_cache=yes name=apache2 state=latest
+    - name: Detener servicio Apache 2
+      service:
+        name: apache 2
+        state: stopped
+- name: Instalación de HAProxy en Debian
+  hosts: debianes
+  remote_user: root
+  tasks:
+    - name: Desinstalar Apache 2
+      apt:
+        name: apache2
+        state: absent
+    - name: Instalar HAProxy
+      apt:
+         name: haproxy
+         update_cache: yes
+         state: latest
+...
